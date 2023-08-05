@@ -66,7 +66,7 @@ const NoteModal: FC = () => {
                                     }
                                 />
                                 <div className="invalid-feedback">
-                                    Please choose a username.
+                                    Please enter Note's name
                                 </div>
                             </div>
                             <div>
