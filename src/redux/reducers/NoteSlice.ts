@@ -15,32 +15,38 @@ const initState: InitState = {
     NoteService.createNote({
       name: "Shopping List",
       category: 1,
-      content: "123",
+      content: "Tomatoes, potato, Coca-Cola",
     }),
     NoteService.createNote({
-      name: "Shopping List",
-      category: 1,
-      content: "123",
+      name: "The should be something",
+      category: 2,
+      content: "Something",
     }),
     NoteService.createNote({
-      name: "Shopping List",
+      name: "Outer life",
+      category: 3,
+      content: "Should we look for life beyond Earth",
+    }),
+
+    NoteService.createNote({
+      name: "Make pull request",
       category: 1,
-      content: "dada 12/12/2023 daasd",
+      content: "tomorrow (7/29/2023) at 6 am or later",
     }),
     NoteService.createNote({
-      name: "Shopping List",
-      category: 1,
-      content: "123",
+      name: "Not empty note!",
+      category: 2,
+      content: "This note isn't empty",
     }),
     NoteService.createNote({
-      name: "Shopping List",
-      category: 1,
-      content: "123",
+      name: "Previous note's name isn't empty",
+      category: 2,
+      content: "Note's name can't be empty, also note content can be empty.",
     }),
     NoteService.createNote({
-      name: "Shopping List",
-      category: 1,
-      content: "123",
+      name: "Just a note with a dates",
+      category: 2,
+      content: "1/1/2023 next 5/31/2041 , 12/12/2012, 31/31/2021-not valid.",
     }),
   ],
 };
