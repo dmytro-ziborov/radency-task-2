@@ -1,0 +1,8 @@
+.table-data{
+        border-collapse: separate !important;
+        border-spacing: 0 0.5rem !important;
+}
+
+.tableBody>tr>td {
+    background-color: #F0F8FF !important;
+}
